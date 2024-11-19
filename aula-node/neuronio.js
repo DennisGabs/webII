@@ -2,7 +2,7 @@ function calculo(X, ativacao){
     let W = treinamento( X.length )
     let V = 0
     for(let i = 0; i < X.length; i++){
-        v += (X[i] * W[i])
+        V += (X[i] * W[i])
     }
     var f = ativacao(v)
     return f
